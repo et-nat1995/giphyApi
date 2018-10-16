@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+.giphyGetter{
+    margin: 5px;
+}
+
+#giphyLoad{
+    margin-top: 20px;
+}
+
+#buttons{
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#submit{
+    border-radius: 5px;
+}
+
+#renderSpot{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#flexMe{
+    margin: auto;
+}
