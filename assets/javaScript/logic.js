@@ -25,7 +25,7 @@ function renderButtons() {
 function giphyRender() {
     var search = $(this).attr("giphyRender");
 
-    var apiUrl = "http://api.giphy.com/v1/gifs/search?q=" + search + "&api_key=" + apiKey + "&limit=10";
+    var apiUrl = "https://api.giphy.com/v1/gifs/search?q=" + search + "&api_key=" + apiKey + "&limit=10";
 
     $.ajax({
         url: apiUrl,
